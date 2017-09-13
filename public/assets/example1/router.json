@@ -1,0 +1,17 @@
+[{
+        "path": "/",
+        "component": "/components/structure/home"
+    },
+    {
+        "path": "/structure",
+        "component": "/components/structure/list"
+    },
+    {
+        "path": "/structure/edit/:id",
+        "component": "/components/structure/edit"
+    },
+    {
+        "path": "/structure/add",
+        "component": "/components/structure/AddStructure"
+    }
+]

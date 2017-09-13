@@ -1,0 +1,13 @@
+[{
+        "type": "Link",
+        "to": "/",
+        "label": "Dashboard",
+        "iconType": "laptop"
+    },
+    {
+        "type": "Link",
+        "to": "/structure",
+        "label": "结构定义",
+        "iconType": "solution"
+    }
+]

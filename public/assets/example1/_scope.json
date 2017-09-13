@@ -1,0 +1,8 @@
+{
+    "theme": "default",
+    "api": "http://devskrw.skong.com",
+    "prompting": {
+        "success": "操作成功",
+        "error": "操作失败"
+    }
+}

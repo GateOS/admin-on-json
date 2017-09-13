@@ -1,0 +1,11 @@
+{
+    "type": "Page",
+    "title": "结构定义",
+    "name": "dashboard",
+    "header": [],
+    "content": [{
+        "type": "Division",
+        "children": "hi ,this is a dashboard"
+    }],
+    "footer": []
+}

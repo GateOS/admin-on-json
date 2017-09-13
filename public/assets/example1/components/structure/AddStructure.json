@@ -1,0 +1,72 @@
+{
+    "type": "Page",
+    "title": "结构定义",
+    "name": "addStructure",
+    "header": [{
+            "type": "QueryButton",
+            "label": "查询"
+        },
+        {
+            "type": "ReturnButton",
+            "label": "返回列表"
+        }
+    ],
+    "content": [{
+        "api": "${api}/def/structure",
+        "type": "DataForm",
+        "title": "编辑结构",
+        "successUrl": "/structure",
+        "env": {
+            "info": "请输入${`name}${`label}.."
+        },
+        "prompting": {
+            "success": "增加成功",
+            "error": "增加失败",
+            "confirm": "确定增加",
+            "loading": "正在增加..."
+        },
+        "items": [{
+                "label": "结构名称",
+                "name": "name",
+                "required": true,
+                "type": "Input",
+                "defaultValue": "com.skong",
+                "placeholder": "${info}"
+            },
+            {
+                "label": "结构编码",
+                "name": "code",
+                "required": true,
+                "type": "Input",
+                "defaultValue": "com.skong",
+                "placeholder": "${info}"
+            },
+            {
+                "label": "状态",
+                "name": "state",
+                "required": true,
+                "type": "Input",
+                "defaultValue": "com.skong",
+                "placeholder": "${info}"
+            },
+            {
+                "label": "创建人",
+                "name": "createrName",
+                "required": true,
+                "type": "Input",
+                "defaultValue": "com.skong",
+                "placeholder": "${info}"
+            }
+        ],
+        "controls": [{
+                "type": "CancelButton",
+                "label": "放弃修改"
+            },
+            {
+                "type": "SubmitButton",
+                "label": "提交"
+            }
+        ]
+    }],
+    "footer": []
+}

@@ -1,0 +1,53 @@
+{
+  "code": "100000",
+  "data": {
+    "page": 1,
+    "records": 3,
+    "rows": [
+      {
+        "code": "home",
+        "createTime": "2017-07-05 10:08:43",
+        "createrId": "1",
+        "createrName": "1",
+        "id": "1",
+        "modifierId": "1",
+        "modifierName": "11",
+        "modifyTime": "2017-07-05 10:08:40",
+        "name": "家居格式",
+        "packagePath": "com.skong.home",
+        "state": "1"
+      },
+      {
+        "code": "chest",
+        "createTime": "2017-07-05 10:10:59",
+        "createrId": "1",
+        "createrName": "1",
+        "id": "2",
+        "modifierId": "1",
+        "modifierName": "1",
+        "modifyTime": "2017-07-05 10:11:03",
+        "name": "柜子",
+        "packagePath": "com.skong.chest",
+        "state": "1"
+      },
+      {
+        "code": "plank",
+        "createTime": "2017-07-05 10:11:21",
+        "createrId": "1",
+        "createrName": "1",
+        "id": "3",
+        "modifierId": "1",
+        "modifierName": "1",
+        "modifyTime": "2017-07-05 10:11:25",
+        "name": "板子",
+        "packagePath": "com.skong.plank",
+        "state": "1"
+      }
+    ],
+    "total": 1
+  },
+  "message": "success",
+  "redirect": null,
+  "success": true,
+  "type": "success"
+}

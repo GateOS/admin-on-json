@@ -1,0 +1,75 @@
+{
+    "type": "Page",
+    "title": "结构定义",
+    "name": "listStructure",
+    "header": [],
+    "content": [{
+        "type": "DataTable",
+        "title": "结构列表",
+        "api": "${api}/def/structure",
+        "prompting": {
+            "success": "您已成功删除该项",
+            "error": "删除该项失败",
+            "confirm": "确定删除",
+            "loading": "正在删除..."
+        },
+        "filter": [{
+                "type": "input",
+                "labelName": "结构名称",
+                "formName": "familyName",
+                "name": "familyName"
+            },
+            {
+                "type": "QueryButton",
+                "label": "查询"
+            },
+            {
+                "type": "AddButton",
+                "label": "新增"
+            }
+        ],
+        "columns": [{
+                "label": "结构名称",
+                "name": "name"
+            },
+            {
+                "label": "结构编码",
+                "name": "code"
+            },
+            {
+                "label": "状态",
+                "name": "state"
+            },
+            {
+                "label": "创建人",
+                "name": "createrName"
+            },
+            {
+                "label": "最后更新时间",
+                "name": "modifyTime"
+            },
+            {
+                "label": "操作",
+                "type": "Controller",
+                "children": [{
+                        "type": "EditButton",
+                        "label": "编辑"
+                    },
+                    {
+                        "type": "DeleteButton",
+                        "label": "删除"
+                    },
+                    {
+                        "type": "DesignButton",
+                        "label": "设计"
+                    },
+                    {
+                        "type": "GenerationButton",
+                        "label": "生成代码"
+                    }
+                ]
+            }
+        ]
+    }],
+    "footer": []
+}

@@ -1,0 +1,35 @@
+{
+  "code": "100000",
+  "data": {
+    "page": 1,
+    "records": 3,
+    "rows": [
+      {
+        "structureId": "1",
+        "field": "2",
+        "remarks": "3",
+        "type": "4",
+        "quote": "5"
+      },
+      {
+        "structureId": "1",
+        "field": "2",
+        "remarks": "3",
+        "type": "4",
+        "quote": "5"
+      },
+      {
+        "structureId": "1",
+        "field": "2",
+        "remarks": "3",
+        "type": "4",
+        "quote": "5"
+      }
+    ],
+    "total": 1
+  },
+  "message": "success",
+  "redirect": null,
+  "success": true,
+  "type": "success"
+}

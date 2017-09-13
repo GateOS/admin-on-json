@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "noLib": false,
+        "jsx": "react",
+        "outDir": "./build/",
+        "noResolve": false,
+        "preserveConstEnums": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports":true,
+        "typeRoots": [
+              "./node_modules/@types"
+        ]
+    },
+    "filesGlob": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules*",
+        "build",
+        "lib"
+    ]
+}
